@@ -4,7 +4,7 @@
   <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
     <a
       class="-translate-y-[1px] text-2xl font-medium"
-      href="{{- `` | absURL -}}"
+      href="/{{ site.Language.Lang }}/"
       >{{ site.Title }}</a
     >
     <div
@@ -13,9 +13,15 @@
       aria-label="Dark"
     ></div>
     <div class="ltr:ml-4 rtl:mr-4 flex items-center text-sm opacity-60">
-      <a class="link" href="/zh/">中文</a>
-      <span class="mx-1">/</span>
-      <a class="link" href="/en/">English</a>
+      {{- $currentLang := site.Language.Lang -}}
+      {{- range $i, $lang := site.Languages -}}
+        {{- if $i -}}<span class="mx-1">/</span>{{- end -}}
+        {{- if ne $currentLang .Lang -}}
+        <a class="link" href="/{{ .Lang }}/">{{ .LanguageName }}</a>
+        {{- else -}}
+        <span class="font-medium">{{ .LanguageName }}</span>
+        {{- end -}}
+      {{- end -}}
     </div>
   </div>
 
