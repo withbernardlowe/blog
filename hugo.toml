@@ -2,6 +2,7 @@ baseURL = "https://withbernardlowe.github.io/"
 title = "Bernard"
 theme = "paper"
 defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
 
 [params]
   color = "linen"
