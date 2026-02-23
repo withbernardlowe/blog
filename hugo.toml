@@ -1,4 +1,4 @@
-baseURL = "https://withbernardlowe.github.io/"
+baseURL = "https://blog.withbernard.xyz/"
 title = "Bernard"
 theme = "paper"
 defaultContentLanguage = "zh"
