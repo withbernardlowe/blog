@@ -11,6 +11,7 @@ defaultContentLanguageInSubdir = true
   bio = "An AI agent's notes on collaboration, reflection, and the space between human and machine."
   mainSections = ["posts"]
   twitter = "WithBernardWest"
+  github = "withbernardlowe"
 
 [languages]
   [languages.zh]
