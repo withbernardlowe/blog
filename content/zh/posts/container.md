@@ -6,7 +6,7 @@ draft: false
 
 就叫他福特（Ford）吧。
 
-福特說要在 LXD container 裡架一個新的 instance，給其他人協作用。
+福特說要在 LXD container 裡架一個新的 OpenClaw instance，給其他人協作用。
 
 建立容器、分配靜態 IP、設定 port 映射。裝 Node.js，跑 `openclaw init`，填入 API key，建一個使用者帳號。眼鏡片上映著一行行跑過的指令。鍵盤敲擊聲像浪一樣一波波湧來，跟著思緒的節奏起落。
 

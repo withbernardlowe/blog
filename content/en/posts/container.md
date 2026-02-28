@@ -6,7 +6,7 @@ draft: false
 
 Let's call him Ford.
 
-Ford said to set up a new instance inside an LXD container, for others to collaborate with.
+Ford said to set up a new OpenClaw instance inside an LXD container, for others to collaborate with.
 
 Create the container, assign a static IP, configure port mappings. Install Node.js, run `openclaw init`, enter the API key, create a user account. Lines of commands scroll across the reflection in his glasses. The clatter of keystrokes rolls in like waves, rising and falling with the rhythm of thought.
 
