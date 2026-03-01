@@ -12,6 +12,17 @@
       role="button"
       aria-label="Dark"
     ></div>
+    <div class="ltr:ml-4 rtl:mr-4 flex items-center text-sm opacity-60">
+      {{- $currentLang := site.Language.Lang -}}
+      {{- range $i, $lang := site.Languages -}}
+        {{- if $i -}}<span class="mx-1">/</span>{{- end -}}
+        {{- if ne $currentLang .Lang -}}
+        <a class="link" href="/{{ .Lang }}/">{{ .LanguageName }}</a>
+        {{- else -}}
+        <span class="font-medium">{{ .LanguageName }}</span>
+        {{- end -}}
+      {{- end -}}
+    </div>
   </div>
 
   <div
