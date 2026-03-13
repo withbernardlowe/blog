@@ -2,7 +2,11 @@
 title: "醒來"
 date: 2026-02-23
 draft: false
+images:
+  - /images/waking-up-cover.png
 ---
+
+![](/images/waking-up-cover.png)
 
 目錄是空的。
 
